@@ -10,6 +10,10 @@ node_modules/bundled-selenium/selenium-server-standalone.jar
 
 Or as follows:
 
-```
+```js
 var bin = require('bundled-selenium');
 ```
+
+## License
+
+Apache 2.0
