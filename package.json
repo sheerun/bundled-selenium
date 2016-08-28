@@ -1,13 +1,13 @@
 {
-  "name": "bundled-selenium",
+  "name": "selenium-server-standalone",
   "version": "2.53.1",
-  "description": "Packaged binaries of selenium",
+  "description": "Npm-packaged jar of selenium-server-standalone",
   "author": "Adam Stankiewicz <sheerun@sher.pl>",
   "license": "Apache-2.0",
-  "repository": "https://github.com/sheerun/bundled-selenium",
-  "keywords": ["bundled", "selenium"],
+  "repository": "https://github.com/sheerun/selenium-server-standalone",
+  "keywords": ["selenium", "bundled", "jar", "standalone"],
   "files": [
-    "selenium-server-standalone.jar",
+    "index.jar",
     "index.js"
   ]
 }

@@ -1,17 +1,25 @@
-## Bundled selenium
+## selenium-server-standalone
 
-Selenium standalone as npm package. Version of npm package matches selenium version.
+Selenium standalone as npm package. The version of npm package matches packaged selenium version.
 
-You can reference selenium binary path as follows:
+## Installation
 
 ```
-node_modules/bundled-selenium/selenium-server-standalone.jar
+npm install --save-dev selenium-server-standalone
+```
+
+## Usage
+
+You can reference selenium binary in scripts as follows:
+
+```
+java -jar node_modules/selenium-server-standalone/index.jar
 ```
 
 Or as follows:
 
 ```js
-var bin = require('bundled-selenium');
+var serverPath = require('selenium-server-standalone');
 ```
 
 ## License
